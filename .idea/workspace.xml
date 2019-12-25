@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04706a17-4366-4034-bc99-cb04fb5cd78f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/mongodb-delete.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playground/mongodb-fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/mongodb-fetch.js" afterDir="false" />
     </list>
@@ -15,8 +15,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1VQmG4niNbQE2Ic8KdSX4r9Mtbc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577193593390</updated>
       <workItem from="1577193594704" duration="4032000" />
-      <workItem from="1577297611838" duration="1924000" />
+      <workItem from="1577297611838" duration="6632000" />
     </task>
     <servers />
   </component>
