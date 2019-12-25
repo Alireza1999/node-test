@@ -2,8 +2,6 @@ const http = require('http');
 const {MongoClient,ObjectID} = require("mongodb");
 const url = require("url");
 
-
-
 http.createServer((req,res)=>{
 
   var q = url.parse(req.url, true);
@@ -35,6 +33,7 @@ http.createServer((req,res)=>{
             {
               return res.write("Error in finding data.");
             }
+
             res.writeHead(200,{"Content-Type": "json"});
             res.write(JSON.stringify(result));
             res.end();
