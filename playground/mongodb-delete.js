@@ -1,12 +1,18 @@
 const http = require('http');
 const {MongoClient,ObjectID} = require("mongodb");
 const url = require("url");
+var express=require('express');
+var app=express();
 
-var counter =0;
+
+
 
 http.createServer((req,res)=>{
 
-    var q = url.parse(req.url, true);
+    var q = url.parse(req.url, true).query;
+
+
+    var firstName = q.fname;
 
     MongoClient.connect('mongodb://localhost:27017/',  (error,client)=>
     {
@@ -22,13 +28,15 @@ http.createServer((req,res)=>{
         var db = client.db("Test");
         var Collection = db.collection("Users");
 
-        Collection.findOneAndDelete({_id :new ObjectID("5e03bef95625f37ee208ddab")}).then((results)=>
+        Collection.deleteMany({ firstName : firstName }).then((results)=>
         {
-
             res.writeHead(200,{"Content-Type" : JSON});
             res.write(JSON.stringify(results));
             res.end();
 
+        },(Error) =>
+        {
+            console.log(Error);
         });
 
 
