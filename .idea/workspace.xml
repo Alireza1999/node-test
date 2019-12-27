@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04706a17-4366-4034-bc99-cb04fb5cd78f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/playground/mongodb-Tutorial/mongodb-delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/mongodb-Tutorial/mongodb-update.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/mongodb-delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/mongodb-delete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/mongoDB-connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/mongodb-Tutorial/mongoDB-connect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/mongodb-delete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/mongodb-fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/mongodb-Tutorial/mongodb-fetch.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +31,20 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.10.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/playground/mongodb-Tutorial" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,6 +91,7 @@
       <workItem from="1577193594704" duration="4032000" />
       <workItem from="1577297611838" duration="6632000" />
       <workItem from="1577354114622" duration="3383000" />
+      <workItem from="1577451262604" duration="17393000" />
     </task>
     <servers />
   </component>
