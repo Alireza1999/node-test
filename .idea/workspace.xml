@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04706a17-4366-4034-bc99-cb04fb5cd78f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/playground/mongodb-Tutorial/mongodb-delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playground/mongodb-Tutorial/mongodb-update.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/mongoDB-connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/mongodb-Tutorial/mongoDB-connect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/mongodb-delete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/mongodb-fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/mongodb-Tutorial/mongodb-fetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/mongoose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/model/ticket.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/model/ticket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +87,9 @@
       <workItem from="1577193594704" duration="4032000" />
       <workItem from="1577297611838" duration="6632000" />
       <workItem from="1577354114622" duration="3383000" />
-      <workItem from="1577451262604" duration="17393000" />
+      <workItem from="1577451262604" duration="18643000" />
+      <workItem from="1577536754214" duration="3128000" />
+      <workItem from="1577614147420" duration="11000" />
     </task>
     <servers />
   </component>

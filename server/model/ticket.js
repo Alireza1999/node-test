@@ -3,10 +3,7 @@ var Schema = mongoose.Schema;
 
 let ticketSchema = new Schema(
     {
-        id:
-            {
-                type: mongoose.Types.ObjectId
-            },
+
         user:
             {
                 type: String,
