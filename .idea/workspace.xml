@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="04706a17-4366-4034-bc99-cb04fb5cd78f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/db/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/mongoose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/model/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/model/likes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/model/likes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/model/ticket.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/model/ticket.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
@@ -90,6 +94,8 @@
       <workItem from="1577451262604" duration="18643000" />
       <workItem from="1577536754214" duration="3128000" />
       <workItem from="1577614147420" duration="11000" />
+      <workItem from="1577627253001" duration="6358000" />
+      <workItem from="1577785106662" duration="16131000" />
     </task>
     <servers />
   </component>

@@ -35,6 +35,4 @@ var UserSchema = new Schema({
             default : null}
 });
 
-var User = mongoose.model('user',UserSchema);
-
-module.exports = {User};
+module.exports =mongoose.model('user',UserSchema);

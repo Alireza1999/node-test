@@ -9,10 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "latest",
     "express": "^4.17.1",
     "mongodb": "^3.4.1",
     "mongoose": "^5.8.3",
-    "url": "0.11.0",
-    "body-parser": "latest"
+    "underscore": "^1.9.1",
+    "url": "0.11.0"
   }
 }

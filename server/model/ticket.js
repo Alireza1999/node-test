@@ -1,5 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
+const _ = require('underscore');
+
 
 let ticketSchema = new Schema(
     {
@@ -53,10 +55,27 @@ let ticketSchema = new Schema(
             {
                 type: Date,
                 default: Date.now()
+            },
+        liked:[
+            {
+                type: String,
+                createIndex : {
+                    unique : true
+
+                }
+
+            }],
+        like_number:
+            {
+                type : Number,
+                default: 0
             }
 
     });
 
-var ticket = mongoose.model("Ticket",ticketSchema);
+ticketSchema.pre('update', function (next) {
+    this.liked = _.unique(this.liked);
+    next();
+});
 
-module.exports = {ticket};
+module.exports =  mongoose.model("Ticket",ticketSchema);

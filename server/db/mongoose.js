@@ -1,7 +1,9 @@
 var mongoose = require("mongoose");
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/TodoApp')
+mongoose.connect('mongodb://localhost:27017/TodoApp', {
+    useFindAndModify: false,
+})
     .then(
         (resulr) => {
             console.log("Connected to DB");

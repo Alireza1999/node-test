@@ -5,12 +5,14 @@ let likesSchema = new Schema(
     {
         ticket_id:
             {
-                type : mongoose.Types.ObjectId
+                type : String
             },
         user:
             {
-                type : String
+                type : String,
             }
-    })
+    });
 
-module.exports = mongoose.model('Likes', likesSchema)
+
+
+module.exports = mongoose.model("Likes", likesSchema,'likes');
